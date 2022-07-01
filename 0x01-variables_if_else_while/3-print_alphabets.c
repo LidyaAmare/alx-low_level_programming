@@ -1,24 +1,27 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
-* main - Entry point
-*
-* Return: Always 0 (Success)
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
-{
-char low;
 
-for(low = 'a'; low <= 'z'; low++)
 {
-putchar(low);
+char lower_case;
+char upper_case;
+
+for(upper_case = 'A'; upper_case <= 'Z'; upper_case++)
 {
-for(low = 'A'; low <= 'Z'; low++)
-{
-putchar(low);
+putchar(upper_case);
 }
+
+for(lower_case = 'a'; lower_case <= 'z'; lower++)
+{
+putchar(lower_case);
+}
+
 putchar('\n');
 
 return (0);
+
 }

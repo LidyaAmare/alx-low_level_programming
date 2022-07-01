@@ -7,7 +7,6 @@
 *Return: Alwayss 0 (Success/correct)
 */
 
-
 int main(void)
 {
 int n;
@@ -20,18 +19,15 @@ if (n==0)
 printf("%i is zero\n", n);
 }
 
-
 else if (n<0)
 {
 printf("%i is negative\n", n);
 }
-
 
 else
 {
 print ("%i is positive\n", n);
 }
 return (0);
-
 
 }

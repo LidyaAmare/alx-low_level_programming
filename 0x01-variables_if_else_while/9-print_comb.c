@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *
  * mian - Entry point
  *
  * Return: Always 0 (success)

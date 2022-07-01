@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  *
  * mian - Entry point
@@ -6,21 +8,16 @@
  * Return: Always 0 (success)
  */
 int main(void)
-
 {
-int number;
+int d;
 
-for (number = 48; number <= 57; number++)
+for(d = '0'; d <= '9'; d++)
 {
-putchar(number);
-
-if (number == 57)
+putchar(d);
+if(d != '9')
 {
-break;
-}
-
 putchar(',');
-putchar (' ');
+putchar('');
 }
 putchar('\n');
 

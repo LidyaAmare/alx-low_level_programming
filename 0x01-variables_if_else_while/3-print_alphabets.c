@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Success/correct)
  */
 int main(void)
 
@@ -20,7 +20,7 @@ for (upper_case = 'A'; upper_case <= 'Z'; lower_case++)
 putchar(upper_case);
 }
 
-putchar ('\n');
+putchar('\n');
 
 return (0);
 

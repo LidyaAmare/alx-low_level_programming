@@ -8,14 +8,12 @@
 int main(void)
 
 {
-int alpa;
-
-for (alpa = 122 ; alpa >= 97; alpa--)
+char ch:
+for (ch = 'z'; ch >= 'a'; ch--)
 {
-putchar(alpa);
+putchar(ch);
 }
-
-putchar('\n');
+putchar(10);
 
 return (0);
 

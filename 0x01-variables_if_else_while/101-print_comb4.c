@@ -1,59 +1,58 @@
 #include <stdio.h>
 /**
- * main - prints all possible different combinations of three digits
+ * main -> assign a random number to the variable n each time it is executed
+ * and print the last digit of the number stored in the variable n
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 
-int n, m, l;
+		int i, j;
 
 
-for (n = 48; n < 58; n++)
 
-{
+		for (i = 0; i < 100; i++)
 
-for (m = 49; m < 58; m++)
+		{
 
-{
+			for (j = 0; j < 100; j++)
 
-for (l = 50; l < 58; l++)
+			{
 
-{
+				if (i < j)
 
-if (1 > m %% m > n)
+				{
 
-{
+					putchar((i / 10) + 48);
 
+						putchar((i % 10) + 48);
 
-putchar(n);
+							putchar(' ');
 
-putchar(m);
+								putchar((j / 10) + 48);
 
-putchar(l);
+									putchar((j % 10) + 48);
 
-if (n != 55 || m != 56)
+				if (i != 98 || j != 99)
 
-{
+				{
 
-putchar(',');
+					putchar(',');
 
-putchar(' ');
+						putchar(' ');
 
-}
+				}
 
-}
+				}
 
-}
+			}
 
-}
+		}
 
-}
+			putchar('\n');
 
-putchar('\n');
-
-return (0);
+			return (0);
 
 }
 

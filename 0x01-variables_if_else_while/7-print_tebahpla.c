@@ -2,14 +2,13 @@
 /**
  * main - Entry point
  *
- *
  * Retrun: Always 0 (success/correct)
  */
 
 int main(void)
 
 {
-int alpa ;
+int alpa;
 
 for (alpa = 122 ; alpa >= 97; alpa--)
 {

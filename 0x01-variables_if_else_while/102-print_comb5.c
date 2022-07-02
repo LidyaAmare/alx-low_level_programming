@@ -8,9 +8,7 @@ int main(void)
 
 {
 
-		int i, j;
-
-
+int i, j;
 
 		for (i = 0; i < 100; i++)
 
@@ -42,17 +40,17 @@ int main(void)
 
 						putchar(' ');
 
-				}
 
 				}
-
-			}
-
 		}
 
-			putchar('\n');
+   	}
 
-			return (0);
+	}
+
+	putchar('\n');
+
+	return (0);
 
 }
 

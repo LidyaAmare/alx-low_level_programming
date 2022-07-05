@@ -1,30 +1,23 @@
-#include "main.h"
-/**
- * main - Entry point
- *
- * Return: nothing, return void
- */
-int main(void)
+int _putchar(char c);
 
-{
-_putchar('_');
+void print_alphabet(void);
 
-_putchar('p');
+void print_alphabet_x10(void);
 
-_putchar('u');
+int _islower(int c);
 
-_putchar('t');
+int _isalpha(int c);
 
-_putchar('c');
+int print_sign(int n);
 
-_putchar('h');
+int _abs(int);
 
-_putchar('a');
+int print_last_digit(int);
 
-_putchar('r');
+void jack_bauer(void);
 
-_putchar('\n');
+void times_table(void);
 
-return (0);
+int add(int, int);
 
-}
+void print_to_98(int n);

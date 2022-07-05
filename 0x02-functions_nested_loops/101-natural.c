@@ -10,7 +10,7 @@ int a, j;
 for (a = 1; a < 1024; a++)
 {
 if ((a % 3) == 0 || (a % 5) == 0)
-j +=a;
+j += a;
 }
 printf("%d\n", j);
 return (0);

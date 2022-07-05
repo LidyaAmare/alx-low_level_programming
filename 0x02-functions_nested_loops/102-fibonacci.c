@@ -9,13 +9,13 @@ int  main(void)
 
 int fib1 = 1, fib2 = 2, fib3, num = 50, count = 1;
 
-printf("%d", &num);
+printf("%i", &num);
 
-printf("First %d FIBONACCI numbers are ...\n", num);
+printf("First %i FIBONACCI numbers are ...\n", num);
 
-printf("%d\n", fib1);
+printf("%i\n", fib1);
 
-printf("%d\n", fib2);
+printf("%i\n", fib2);
 
 count = 50; 
 
@@ -27,7 +27,7 @@ fib3 = fib1 + fib2;
 
 count++;
 
-printf("%d\n", fib3);
+printf("%i\n", fib3);
 
 fib1 = fib2;
 

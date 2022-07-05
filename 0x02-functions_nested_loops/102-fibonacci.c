@@ -4,7 +4,7 @@
  * 
  * Return: Always 0.
  */
-void main()
+int  main(void)
 {
 
     int fib1 = 1, fib2 = 2, fib3, num, count = 1;

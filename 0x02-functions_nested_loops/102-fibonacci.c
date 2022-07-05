@@ -36,5 +36,5 @@ int  main(void)
         fib2 = fib3;
 
    }
-
+return (0);
 }

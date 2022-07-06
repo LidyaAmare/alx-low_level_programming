@@ -22,5 +22,6 @@ printf("%ld\n", j);
 next = j + k;
 j = k;
 k = next;
-}return (0);
+}
+return (0);
 }

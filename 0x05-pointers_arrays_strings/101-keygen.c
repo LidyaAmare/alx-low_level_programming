@@ -3,6 +3,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
+ * main - Entry point
+ *
+ * Return: 0 Always (Sucsses)
  */
 int main(void)
 

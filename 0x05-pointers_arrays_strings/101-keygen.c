@@ -1,18 +1,26 @@
-#include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 /**
- *main - Entry point
+ * main - generate password
  *
- *Return: Always 0
+ * Return: Always 0
  */
 int main(void)
 {
-int num;
-srand(time(0));
-num = rand();
-printf("%i\n", num);
+int r = 0;
+int s = 0;
+time_t t;
+srand((unsigned int) time(&t));
+while (s < 2772)
+{
+r = rand() % 128;
+if ((s + r) > 2772)
+break;
+s = s + r;
+printf("%c", r);
+}
+printf("%c\n", (2772 - s));
 return (0);
 
 }

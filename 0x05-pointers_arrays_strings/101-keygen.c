@@ -3,22 +3,16 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
+ *main - Entry point
  *
- * Return: 0 Always (Sucsses)
+ *Return: Always 0
  */
 int main(void)
-
 {
-
 int num;
-
 srand(time(0));
-
 num = rand();
-
 printf("%i\n", num);
-
 return (0);
 
 }

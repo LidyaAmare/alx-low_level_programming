@@ -1,14 +1,30 @@
 #include "main.h"
 /**
-  *_abs - maybe converts to absolute value
-  *@n : input integer
-  *Return: absolute value of n
-**/
+ * _abs - absolute value of int
+ *
+ * @a: as int
+ *
+ * Return: abs value
+ */
 
-int _abs(int n)
+int _abs(int a)
 
 {
 
-/*converts to absolute value*/
+if (a >= 0)
+
+{
+
+return (a);
+
+}
+
+else
+
+{
+
+return (a * -1);
+
+}
 
 }

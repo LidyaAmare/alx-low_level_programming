@@ -1,14 +1,16 @@
+#include <unistd.h>
 #include "main.h"
 /**
-  *_putchar - function for printing a character
-  *@c : input character
-  *Return: always 0
-**/
+ * _putchar - writes
+ *@c: the character to print
+ *
+ * Return: 1
+ */
 
 int _putchar(char c)
 
 {
 
-/*function prints character*/
+return (write(1, &c, 1));
 
 }

@@ -1,4 +1,6 @@
-o "Compiling..."
+#!/bin/bash
+
+echo "Compiling..."
 
 gcc -Wall -pedantic -Wextra -Werror -std=gnu89 -c *.c
 

@@ -1,5 +1,15 @@
-#!/bin/bash
+o "Compiling..."
 
-gcc -c *.c
+gcc -Wall -pedantic -Wextra -Werror -std=gnu89 -c *.c
 
-ar rc liball.a *.o
+echo "Compile successful!"
+
+ar -rc liball.a *.o
+
+echo "Compiled object files"
+
+echo "====================="
+
+ar -t liball.a
+
+echo "Complete."

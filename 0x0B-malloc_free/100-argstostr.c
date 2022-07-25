@@ -22,25 +22,17 @@ c++;
 c++;
 
 }
-
 aout = malloc((c + 1) * sizeof(char));
 if (aout == NULL)
-
 {
-
 free(aout);
 return (NULL);
 
 }
-
 for (i = j = k = 0; k < c; j++, k++)
-
 {
-
 if (av[i][j] == '\0')
-
 {
-
 aout[k] = '\n';
 i++;
 k++;
